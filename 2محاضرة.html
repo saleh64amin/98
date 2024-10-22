@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <table></table> -->
+    <!-- tr=table role -->
+    <!-- td=table data  -->
+    <!-- test -->
+    <!-- كام صف وكام عامود اهم حاجه تعرفها -->
+    <header>
+      <table border="1" style="width: 100%">
+        <!-- tr*4td*3 -->
+        <!-- cntrol + s يعمل فورمات تنظيم -->
+        <!-- <thead></thead> <tbody></tbody> <tfoot></tfoot>  تجعلة في المكان المخصص زي تي فوت في نهاية دايما ومنظم -->
+        <thead>
+          <tr>
+            <!-- th  في  نص وتجعله تخين -->
+            <!-- row span  -->
+            <!-- colnspan لدمج الخلايا -->
+            <th>اسم1</th>
+            <td>عنوان</td>
+            <td>وظيفة</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <!-- th تجعله تخين -->
+            <th>اسم2</th>
+            <td>عنوان</td>
+            <td>وظيفة</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <!-- th تجعله تخين -->
+            <th>اسم1</th>
+            <td>عنوان</td>
+            <td>وظيفة</td>
+          </tr>
+        </tfoot>
+        <!-- يمكن وضع صورة او فديو او اي حاجه -->
+      </table>
+      <dl>
+        sl
+        <dd>666</dd>
+      </dl>
+    </header>
+    <section>
+      <!-- 
+لوضع اي فيديو او صفحة من مصدر خارجي اضع عنصر
+<iframe src="" frameborder="0"></iframe> -->
+      <iframe
+        title="موقع يلا كورة"
+        src="https://www.yallakora.com/"
+        width="500"
+        height="500"
+        frameborder="0"
+      ></iframe>
+
+      <!-- frameborder="0" لوضع حدود او لا باستخدام 1او0  -->
+      <!-- وهو قديم وغير مهم -->
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/obl_q80STm4?si=bBdMFagJBuLlcg7A"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <!-- كود 56 ننسخ من اليوتيوب التضمين علططول ونلصقه ليس كالمواقع نضعهم في سورس -->
+    <!-- وضع صوت -->
+    <section><audio src="001.mp3" loop muted controls></audio></section>
+    <!-- autoplay ليس جيد عشان ميفتحش علطول بالمنطق -->
+
+    <footer>
+      <!-- اخر شيء في المحاضرة التانية طريقة تنظيم الكود  -->
+      <!-- 1 non Semantic Elements in HTML
+     لاتعبر عن شيء بداخلها 
+       مثل ويمكن وضع الكثير منهم داخل بعض<div></div> -->
+
+      <!-- Semantic Elements in HTML عناصر تعبر عن ما بداخلها -->
+      <!-- مثل -->
+      <img src="img_sem_elements.gif" alt="" />
+      <!-- احسن شيء جمع بين ديف وسيمانتك وممكن تعليقات كمان -->
+      <!-- ولا ننسي نعمل فورمات للكود عن طريق تحديده كلة ب كنترول ش او اي ثم فورمات دوكيومنت -->
+      <!-- اخر حاجه ممكن تعلي تنظيم باستخدام 
+       clases
+       id
+       كلاس لتعريف وهتستخدمه للمناداه عليه
+       id
+       معرفات برضو ولكن مع عنصر واحد فقط -->
+      hhhhhhhhhhhh
+      <b>hhhhhhhhh</b>
+      <i>hhhhhhhhhh</i>
+      <strong>hhhhhhhhhhhh</strong>
+      <small>hhhhhhhhhhh</small>
+      <big>hhhhhh</big>
+
+      <del>hhhhhhhh</del>
+      <ins>line ander</ins>
+      <p><sub>رقم اسفل لكتابة المركبات7777</sub> ssssss</p>
+      <sup>لكتابة اس بالاعلي</sup>
+      <blockquote cite="https://mp3quran.net/eng/thubti"><p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolores
+        tempore amet magni. Incidunt cum commodi deleniti molestiae voluptatum
+        amet quaerat mollitia! Minus ducimus tempora, dolorem illum rerum
+        aspernatur reprehenderit. </p>
+      </blockquote>
+      <!-- <cite>لينك الموقع</cite> -->
+      <!-- <blockquote>اقتباس من موقع</blockquote> -->
+      <q>علامتين تنصيص</q>
+      <!-- <p><abbr title="1234">  الاختصارone two tree</abbr> hhhhhhh</p> لكتابة اختصار  -->
+      <br />
+      <br />
+      <hr />
+      <bdo dir="ltr"> <p>عععععloook</p></bdo>
+      <br />
+      <hr />
+      <bdo dir="rtl"><p>عععععloook</p></bdo>
+
+      <!-- div span ديف عنصر بلوك عكس سبان ان لاين وهما ليسو سلمانتك المينت -->
+    </footer>
+  </body>
+</html>
+<!-- هناك اكستنشن اسمه اوتو رينام لتعديل في الاول والاخر في نفس الوقت -->
+<!-- هناك نوعين من العناصر بلوك او ان لاين 
+بلوك تاتي تحت بعضها ولا ياتي جنبها شيء 
+وان لاين عكسها جنب بعضهم -->
